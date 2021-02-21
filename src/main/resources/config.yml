@@ -1,0 +1,4 @@
+# What the items are multiplied by everytime.
+# TapL used the multiplier of 1 in their original video.
+# Meaning it adds one to your multiplier everytime.
+enchantmentmultiplier: 1

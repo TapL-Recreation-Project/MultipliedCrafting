@@ -1,0 +1,9 @@
+name: Multipliedcrafting
+version: ${project.version}
+main: me.swipez.multipliedcrafting.Multipliedcrafting
+api-version: 1.16
+authors: [ notnotnotswipez ]
+commands:
+  craftingchallenge:
+    usage: /craftingchallenge <start/stop/value>
+    description: Starts, Stops, and can set your multiplication value for the challenge!

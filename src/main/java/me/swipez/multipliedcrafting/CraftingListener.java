@@ -30,7 +30,6 @@ public class CraftingListener implements Listener {
             ItemStack crafteditem = e.getCurrentItem();
             int ammountofitems = crafteditem.getAmount();
             int finalcrafted = ammountofitems*newammount;
-            int restofrest = 0;
             if (finalcrafted > 64){
                 int restoftheitems = finalcrafted - 64;
                 finalcrafted = 64;

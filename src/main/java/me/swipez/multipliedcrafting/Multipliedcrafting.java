@@ -1,5 +1,6 @@
 package me.swipez.multipliedcrafting;
 
+import me.swipez.multipliedcrafting.bstats.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.HashMap;
@@ -17,6 +18,7 @@ public final class Multipliedcrafting extends JavaPlugin {
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         getCommand("craftingchallenge").setTabCompleter(new CommandComplete());
+        new Metrics(this, 10431);
     }
 
     @Override

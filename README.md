@@ -7,3 +7,6 @@
 
 Source code for [a plugin that multiplies your crafting on every craFt](https://www.spigotmc.org/resources/tapls-multiplied-crafting-challenge-recreation.89265/) :flushed: :flushed:
 
+
+Discord for project: https://discord.gg/TkRqzY6eGn
+
